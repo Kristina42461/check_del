@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function alertFunc(){
+            alert('Получилось!');
+        }
+    </script>
+
+</head>
+<body>
+    <button class="myButton" onclick="alertFunc();">Нажми срочно!</button>
+   
+   <button class="myButton" onclick="
+        if(confirm('Перейти по ссылке?'))
+        {
+            location.href='https://www.youtube.com/'
+        }">
+    Нажми срочно 2!
+    </button>
+
+    <button id="knopka">1</button>
+    <button id="knopka2">Игра</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
